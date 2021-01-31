@@ -43,7 +43,7 @@
         } elseif ($unit1 == 'kelvin' && $unit2 == 'celsius'){
             $temp = $temp - 273.15;
         } else {
-            echo "<h1>OOPS! Please choose a numeric value for the temperature and select BOTH units of measurement.</h1>";
+            echo "<h1>*********************OOPS!***********************</h1><h2> Please choose a numeric value for the temperature and select BOTH units of measurement.</h2>";
         }
     } else {
         echo "<h1>*********************OOPS!***********************</h1><h2> Please choose a numeric value for the temperature and select BOTH units of measurement.</h2>";
