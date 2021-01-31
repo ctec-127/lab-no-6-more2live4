@@ -22,3 +22,7 @@ input[type=submit] {
     padding: 10px;
     font-size: 1em;
 }
+
+h1 {
+    color: #ff0000;
+}

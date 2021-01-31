@@ -46,7 +46,7 @@
             echo "<h1>*********************OOPS!***********************</h1><h2> Please choose a numeric value for the temperature and select BOTH units of measurement.</h2>";
         }
     } else {
-        echo "<h1>*********************OOPS!***********************</h1><h2> Please choose a numeric value for the temperature and select BOTH units of measurement.</h2>";
+        echo "<h1>*********************OOPS!***********************</h1><h3><i>Please choose a numeric value for the temperature and select BOTH units of measurement.</i></h3>";
     }
         return $temp;
         
@@ -76,7 +76,7 @@
 
     ?>
     <!-- Form starts here -->
-    <h1>Temperature Converter</h1>
+    <h2>Temperature Converter</h2>
     <h4>CTEC 127 - PHP with SQL 1</h4>
     <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
         <div class="group">
